@@ -31,7 +31,7 @@
 
 // submitBtn.addEventListener("click", () => {heading.textContent = input.value})
 
-//Activity 1, making image vanish and reappear at the push of a button
+// Activity 1, making image vanish and reappear at the push of a button
 const vanishBtn = document.getElementById("vanish");
 const luciPic = document.getElementById("luciPic");
 
@@ -44,3 +44,20 @@ vanishBtn.addEventListener("click", () => {
       vanishBtn.innerText = "Show";
     }
   });
+
+const activity2Btn = document.getElementById("activity2Btn");
+const activity2Pic = document.getElementById("activity2Img");
+const activity2Inpt = document.getElementById("activity2Inpt");
+
+activity2Btn.addEventListener("click", () => {
+    activity2Pic.src = activity2Inpt.value;
+    activity2Inpt.value = "";
+});
+
+const activity3Head = document.getElementById("act3Head");
+const activity3Inpt = document.getElementById("act3Inpt");
+const activity3Btn = document.getElementById("act3Btn");
+
+activity3Btn.addEventListener("click", () => {
+    activity3Head.style.color = activity3Inpt.value;
+})
