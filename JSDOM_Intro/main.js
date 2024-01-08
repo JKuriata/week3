@@ -30,3 +30,17 @@
 // const submitBtn = document.getElementById("submit")
 
 // submitBtn.addEventListener("click", () => {heading.textContent = input.value})
+
+//Activity 1, making image vanish and reappear at the push of a button
+const vanishBtn = document.getElementById("vanish");
+const luciPic = document.getElementById("luciPic");
+
+vanishBtn.addEventListener("click", () => {
+    if (luciPic.style.display === "none") {
+      luciPic.style.display = "block";
+      vanishBtn.innerText = "Vanish";
+    } else {
+      luciPic.style.display = "none";
+      vanishBtn.innerText = "Show";
+    }
+  });
