@@ -1,3 +1,7 @@
+body {
+background-image: linear-gradient(to bottom right, rgb(234, 188, 53), rgb(165, 124, 22));
+}
+
 h1 {
     color: red;
 }
