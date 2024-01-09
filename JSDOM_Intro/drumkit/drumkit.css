@@ -1,0 +1,13 @@
+.drum-button {
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    padding: 2%;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(72, 137, 190);
+}
+
+.sideways-text {
+    transform: rotate(90deg);
+}
