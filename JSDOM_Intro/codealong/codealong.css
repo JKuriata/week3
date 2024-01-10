@@ -1,0 +1,14 @@
+#optionsContainer {
+    display: flex;  
+    width: 480px;
+    flex-wrap: wrap;  
+    width: 480px;
+    height: 330px;
+    align-items: center;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    transition: all 0.4s;
+}
